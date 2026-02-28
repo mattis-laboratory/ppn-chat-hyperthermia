@@ -6,11 +6,11 @@ function cfg = setup_preproc_config()
 cfg = struct();
 
 %% --- Subjects ---
-cfg.subject            = '2828';     % ID of which mouse to run
+cfg.subject            = '';     % ID of which mouse to run
 
 %% --- Paths ---
-cfg.root               = '/nfs/turbo/umms-mattislab/Chandni/Data/';
-cfg.project            = 'PPN_ChAT_Hyperthermia';
+cfg.root               = '';
+cfg.project            = '';
 cfg.datapath           = [cfg.root,cfg.project,'/',num2str(cfg.subject),'/']; 
 
 %% --- Channels / signals ---
