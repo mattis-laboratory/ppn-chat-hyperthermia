@@ -1,13 +1,6 @@
 %% Characterize calcium activity at TOIs
 clc; clear; close all;
 
-% Data
-root               = '/nfs/turbo/umms-mattislab/Chandni/Data/';
-project            = 'PPN_ChAT_Hyperthermia';
-
-load([root,project,'/subs_info.mat']);
-load([root,project,'/het_data.mat']);
-
 % Choose dataset
 group    = het_zdff_hpf;
 
