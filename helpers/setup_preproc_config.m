@@ -23,7 +23,7 @@ cfg.numOEPRecording    = 1;          % which eeg recording (usually first one)
 cfg.rejectArtifact     = false;      % choose whether to interpolate eeg artifacts (optional)
 cfg.gaussSigma         = 75;         % stdev of gaussian kernel for photometry denoising (in samples)
 cfg.hpfCutoff          = 0.01;       % cutoff freq. for high-pass filtering (in Hz)
-cfg.blDuration         = 60;         % duration of baseline/ when heating started (in seconds)
+cfg.blDuration         = [];         % duration of baseline/ when heating started (in seconds)
 
 %% --- Plotting options ---
 
