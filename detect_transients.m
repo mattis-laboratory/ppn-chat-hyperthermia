@@ -59,13 +59,13 @@ for subject = 1:numel(zdff_data)
      dff_pks                  = thisDff(locs);
     [P2Tamp_dff]              = get_p2t_amplitude(params,thisDff,dff_pks,locs);
     
-    transients{subject,1} = pks;
-    transients{subject,2} = locs;
-    transients{subject,3} = widths;
-    transients{subject,4} = P2Tamp;
-    transients{subject,5} = proms;
-    transients{subject,6} = dff_pks;
-    transients{subject,7} = P2Tamp_dff;
+    transients{subject,1}     = pks;
+    transients{subject,2}     = locs;
+    transients{subject,3}     = widths;
+    transients{subject,4}     = P2Tamp;
+    transients{subject,5}     = proms;
+    transients{subject,6}     = dff_pks;
+    transients{subject,7}     = P2Tamp_dff;
 
     clearvars -except params subject zdff_data dff_data
 
